@@ -1,4 +1,4 @@
-##Exit Light
+# Exit Light 💀
 
 Pixel 2D-platformer that tries to recreate the classic mechanics of the genre
 
