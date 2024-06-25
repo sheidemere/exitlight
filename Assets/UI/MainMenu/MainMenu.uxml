@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/buttonstyle.uss?fileID=7433441132597879392&amp;guid=cbec965912d31e242bfd60af03ddba11&amp;type=3#buttonstyle" />
+    <Style src="project://database/Assets/UI/glowfortext.uss?fileID=7433441132597879392&amp;guid=b9d3d2fd46f940747a6571cf77d2d075&amp;type=3#glowfortext" />
+    <ui:VisualElement name="MenuContainer" style="flex-grow: 1; margin-top: 0; padding-top: 0; width: 100%; height: 13%; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 14%; opacity: 0.5;">
+        <ui:Label tabindex="-1" text="Exit light" parse-escape-sequences="true" display-tooltip-when-elided="true" class="glow" style="-unity-font: url(&apos;project://database/Assets/Font/ARCADECLASSIC.TTF?fileID=12800000&amp;guid=b104ee21eba7f2c46ba7883eb88f0387&amp;type=3#ARCADECLASSIC&apos;); -unity-font-definition: initial; font-size: 200%; -unity-text-align: middle-center; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255); -unity-font-style: normal; width: 100%; height: 18%; text-overflow: ellipsis;" />
+        <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayBtn" class="button" style="-unity-text-align: middle-center; width: 25%; height: 13%; white-space: normal; letter-spacing: 7px; font-size: 80%;" />
+        <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SettingBtn" class="button" style="margin-top: 2%; margin-right: 2%; margin-bottom: 2%; margin-left: 2%; font-size: 80%;" />
+        <ui:Button text="BINDING" parse-escape-sequences="true" display-tooltip-when-elided="true" name="KeyButton" class="button" style="font-size: 80%;" />
+        <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuitBtn" class="button" style="overflow: visible; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 80%;" />
+    </ui:VisualElement>
+</ui:UXML>
